@@ -21,14 +21,14 @@ const ColumnForm = props => {
                 type="text"
                 value={title}
                 onChange={e => setTitle(e.target.value)}
-                placeholder='Add Title'
+                placeholder='Enter Title'
             />
             <span>Icon:</span>
             <TextInput
                 type="text"
                 value={icon}
                 onChange={e => setIcon(e.target.value)}
-                placeholder='Add Icon'
+                placeholder='Enter Icon'
             />
             <Button>Add column</Button>
         </form>
